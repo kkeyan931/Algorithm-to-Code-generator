@@ -1,0 +1,26 @@
+begin
+assign ( a int )
+assign ( b int )
+assign ( c int )
+assign a to 10
+assign b to 15
+print "Hello all"
+print int , c
+for a from 1 to 10
+repeat
+b = b + a
+endfor
+end
+for b from 1 to 20
+repeat
+print "hii"
+endfor
+start_procedure myfunction(a int) 
+print int , a
+end_procedure
+start_procedure myfunction1(b int)
+for b from 1 to 10
+repeat
+print "iam from function1"
+endfor
+end_procedure
